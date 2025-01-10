@@ -1,0 +1,33 @@
+.restaurant-details {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background to show the blur */
+    backdrop-filter: blur(10px);
+    border-radius: 30px; 
+    padding: 20px;
+  }
+  
+  .restaurant-details h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  .restaurant-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .restaurant-details li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .restaurant-details li span {
+    color: #333;
+  }
+  
