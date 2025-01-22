@@ -5,7 +5,7 @@ import RestaurantList from "./components/RestaurantList/RestaurantList.jsx";
 import RestaurantDetails from "./components/RestaurantDetails/RestaurantDetails.jsx";
 import UserSuggestions from "./components/UserSuggestions/UserSuggestions.jsx";
 import AddPlace from "./components/AddPlace/AddPlace.jsx";
-import "./App.css"; // External CSS file for styling
+import "./App.css";
 
 const App = () => {
   return (

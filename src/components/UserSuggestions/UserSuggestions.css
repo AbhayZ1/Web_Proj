@@ -4,7 +4,7 @@
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 30px; 
-    padding: 20px;
+    padding: 40px;
   }
   
   .user-suggestions h1 {
@@ -37,6 +37,7 @@
   
   textarea {
     resize: vertical;
+    color: black;
   }
   
   button {
