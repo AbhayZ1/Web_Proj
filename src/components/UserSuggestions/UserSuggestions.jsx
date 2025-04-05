@@ -10,13 +10,11 @@ const UserSuggestions = () => {
 
     const [message, setMessage] = useState("");
 
-    // Handle form input changes
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
     };
 
-    // Handle form submission
     const handleSubmit = async (e) => {
         e.preventDefault();
 
@@ -31,7 +29,7 @@ const UserSuggestions = () => {
 
             if (response.ok) {
                 setMessage("Thank you for your suggestion!");
-                setFormData({ name: "", email: "", suggestion: "" }); // Reset the form
+                setFormData({ name: "", email: "", suggestion: "" }); 
             } else {
                 const error = await response.text();
                 setMessage(`Error: ${error}`);
@@ -56,7 +54,6 @@ const UserSuggestions = () => {
                     placeholder="Enter your name here"
                     required
                 />
-                <br /><br />
 
                 <label htmlFor="email">Email:</label>
                 <input
@@ -68,10 +65,8 @@ const UserSuggestions = () => {
                     placeholder="Enter your valid Email here"
                     required
                 />
-                <br /><br />
 
                 <label htmlFor="suggestion">Suggestion:</label>
-                <br />
                 <textarea
                     id="suggestion"
                     name="suggestion"
@@ -82,7 +77,6 @@ const UserSuggestions = () => {
                     placeholder="You can give suggestions about a restaurant here"
                     required
                 />
-                <br /><br />
 
                 <button type="submit">Submit</button>
             </form>

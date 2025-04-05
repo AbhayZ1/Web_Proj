@@ -1,34 +1,28 @@
 .user-suggestions {
-    padding: 20px;
     font-family: Arial, sans-serif;
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     border-radius: 30px; 
     padding: 40px;
   }
   
   .user-suggestions h1 {
     text-align: center;
-    color: black;
+    color: #45b049;
   }
   
   form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap : 10px
   }
   
-  label {
-    margin-bottom: 15px;
-    font-size: 16px;
-    width: 100%;
-    max-width: 400px;
-  }
   
   input, textarea {
     width: 100%;
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 0px;
     border: 1px solid #ccc;
     border-radius: 5px;
     color: black;
@@ -43,7 +37,7 @@
   button {
     background-color: #4caf50;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: none;
     cursor: pointer;
   }
@@ -51,4 +45,26 @@
   button:hover {
     background-color: #45a049;
   }
-  
+
+  button {
+    background-color: #F94144;
+    color: #FFFFFF;
+    padding: 12px 4px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  button:hover {
+    background-color: #F4A261;
+    transform: translateY(-2px);
+  }
+
+  button:active {
+    background-color: #F94144;
+  }
+.header{
+  margin: 0px 0px;
+}

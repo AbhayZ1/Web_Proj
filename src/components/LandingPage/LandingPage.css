@@ -3,16 +3,16 @@
     text-align: center;
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background to show the blur */
-    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(30px);
     border-radius: 30px; 
     padding: 20px;
   }
   
   .header {
-    background-color: #4caf50;
+    /* background-color: #4caf50; */
     border-radius: 10px;
-    color: white;
+    color: #45b049;
     padding: 20px;
   }
   
