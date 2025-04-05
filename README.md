@@ -59,6 +59,7 @@ npm start
 
 Contributors
 Akshat Srivastava 
+
 Abhay Mahantesh Zalaki
 
 Acknowledgements
