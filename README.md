@@ -46,20 +46,17 @@ CSS
 Installation
 Clone the repository:
 
-text
 git clone https://github.com/yourusername/campus-cravings.git
 Navigate to the project directory:
 
-text
 cd campus-cravings
+
 Install dependencies:
-
-text
 npm install
-Start the development server:
 
-text
+Start the development server:
 npm start
+
 Contributors
 Abhay Mahantesh Zalaki
 
