@@ -1,12 +1,67 @@
-<<<<<<< HEAD
-# React + Vite
+Campus Cravings: VIT Food Guide
+A simple web guide to dining options at Vellore Institute of Technology, helping students discover eating spots on campus.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Overview
+Campus Cravings is a web-based platform designed for VIT students to find and explore different dining options. This project aims to simplify the process of finding good food around campus.
 
-Currently, two official plugins are available:
+Features
+Browse restaurants categorized by location:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Campus-Cravings
->>>>>>> 7cf5e118f2a224ad99a8c9041e54d9782183d3c5
+Inside VIT
+
+Outside VIT
+
+Messes
+
+View basic information for each eating spot:
+
+Menu highlights
+
+Price range
+
+Location
+
+Simple UI to navigate through different options
+
+VIT Dining Options
+The site includes information about:
+
+Food Court options
+
+Hostel canteens
+
+Popular messes
+
+Nearby restaurants
+
+Technologies Used
+React
+
+JavaScript
+
+HTML
+
+CSS
+
+Installation
+Clone the repository:
+
+text
+git clone https://github.com/yourusername/campus-cravings.git
+Navigate to the project directory:
+
+text
+cd campus-cravings
+Install dependencies:
+
+text
+npm install
+Start the development server:
+
+text
+npm start
+Contributors
+Abhay Mahantesh Zalaki
+
+Acknowledgements
+WebDev course instructors for guidance and support
